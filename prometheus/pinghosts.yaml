@@ -1,7 +1,9 @@
 - targets:  # url;humanname;routing;switch
-    - 8.8.8.8;google.com;external;ethernet-internet
-    - 8.8.4.4;github.com;external;ethernet-internet
-    - 88.98.254.193;hyperopic-netxhop;external;ethernet-external
-    - 10.2.0.1;gateway;internal;ethernet-local
+    - 8.8.8.8;google.com;external;wireless-internet
+    - 8.8.4.4;github.com;external;wireless-internet
+    - 88.98.254.193;hyperopic-netxhop;external;wireless-external
+    - 10.2.0.1;gateway;internal;wireless-local
     - 127.0.0.1;localhost;local;localhost
-
+    - 10.0.1.114;ap-office;local;wireless-local
+    - 10.0.1.110;ap-lounge;local;wireless-local
+    - 10.0.1.109;sw-dist;local;wireless-local

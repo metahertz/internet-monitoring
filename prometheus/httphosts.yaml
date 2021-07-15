@@ -1,6 +1,4 @@
 - targets:  # url;humanname;routing;switch
-    - http://google.com;google.com;external;ethernet-internet
-    - http://github.com;github.com;external;ethernet-internet
-    - https://10.2.0.1:8443;gateway.109.metahertz.co.uk;internal;ethernet-local
-    - http://127.0.0.1:3030;grafana;local;localhost
+    - http://google.com;google.com;external;wireless-internet
+    - http://github.com;github.com;external;wireless-internet
 
