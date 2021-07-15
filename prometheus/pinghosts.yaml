@@ -1,8 +1,7 @@
 - targets:  # url;humanname;routing;switch
-    - http://google.com;google.com;external;internetbox
-    - http://github.com;github.com;external;internetbox
-    - https://blackdata.xam.dk:5001;blackdata.xam.dk;external;internetbox
-    - http://192.168.1.1;internetbox;local;internetbox
-    - http://192.168.1.42;blackdata;local;orbirouter-attic
-    - http://192.168.1.101;orbirouter;local;orbirouter
+    - 8.8.8.8;google.com;external;ethernet-internet
+    - 8.8.4.4;github.com;external;ethernet-internet
+    - 88.98.254.193;hyperopic-netxhop;external;ethernet-external
+    - 10.2.0.1;gateway;internal;ethernet-local
+    - 127.0.0.1;localhost;local;localhost
 

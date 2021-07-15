@@ -66,20 +66,10 @@ services:
       - 9696:9696
     image: stefanwalther/speedtest-exporter
     restart: always
+    cap_add:
+      - NET_ADMIN
     networks:
       - back-tier
-
-  sonos:
-    tty: true
-    stdin_open: true
-    expose: 
-      - 1915
-    ports:
-      - 1915:1915
-    image: maxandersen/sonos_exporter
-    command:
-      - '--address=0.0.0.0:1915'
-    network_mode: host
 
   nodeexp:
     privileged: true
